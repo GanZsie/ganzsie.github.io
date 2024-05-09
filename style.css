@@ -57,7 +57,7 @@ h1{
   object-fit: cover;
 }
 
-@media(max-width:2000px){
+@media(max-width:2500px){
   .work{
     flex-direction: column;
   }
