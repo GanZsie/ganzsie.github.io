@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'PlatinumSign';
+  src: url(fonts/PlatinumSign.ttf);
+}
+
+body{
+  background-color: #E0F5B3;
+  color: #756A28;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-top: 100px;
+}
+
+h1{
+  font-family: 'PlatinumSign', sans-serif;
+  font-size: x-large;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.animatic{
+  aspect-ratio: 16/9;
+  min-height: 150px;
+  min-width: 400px;
+  border-radius: 5px;
+}
+
+.container{
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.title{
+  margin-bottom: 5rem;
+}
+
+.work{
+  display: flex;
+  gap: 20px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box img, iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+@media(max-width:768px){
+  .work{
+    flex-direction: column;
+  }
+}
