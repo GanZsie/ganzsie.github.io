@@ -24,7 +24,7 @@ h1{
 .animatic{
   aspect-ratio: 16/9;
   min-height: 150px;
-  min-width: 400px;
+  min-width: 300px;
   border-radius: 5px;
 }
 
@@ -57,7 +57,7 @@ h1{
   object-fit: cover;
 }
 
-@media(max-width:768px){
+@media(max-width:2000px){
   .work{
     flex-direction: column;
   }
